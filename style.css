@@ -11,7 +11,7 @@ h1 {
     color: yellow;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,4 +44,32 @@ section {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.third-section {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experence {
+    box-shadow: 10px 10px 40px black;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid red;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
